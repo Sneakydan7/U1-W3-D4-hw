@@ -22,14 +22,14 @@ h1 {
 
 .tabellone {
   width: 100%;
+
   text-align: center;
   display: inline-block;
 }
 
 body .cell {
   display: inline-block;
-  width: 10%;
-  height: 30%;
+  width: 8%;
   text-align: center;
   border-radius: 50px;
   border: 1px solid gray;
@@ -39,15 +39,23 @@ body .cell {
   margin: 5px;
 }
 
+.randomGen {
+  margin-top: 50px;
+}
+
 .randomGen button {
   display: block;
   margin-inline: auto;
   margin-top: 25px;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
   padding: 20px;
   margin-bottom: 25px;
   background-color: #f2c6de;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
 }
 .selected {
   background-color: #c6def1;
